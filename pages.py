@@ -16,4 +16,3 @@ class loginpage():
 
     def logiong_button(self):
         return self.driver.find_element(By.CLASS_NAME, "#login.btn-primary ").click()
-
