@@ -1,1 +1,1 @@
-aaaa pruebas automaticas 1
+aaaa pruebas automaticas al menos resolvi los problemas con el gitbash
