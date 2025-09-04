@@ -1,3 +1,5 @@
-URLBank = "https://demoqa.com/login"
+URLBank_login = "https://demoqa.com/login"
+URLBank_books = "https://demoqa.com/books"
 username = "mano"
 pasword = "asdlf"
+searchBook = "El quijote"

@@ -16,3 +16,10 @@ class loginpage():
 
     def logiong_button(self):
         return self.driver.find_element(By.CLASS_NAME, "#login.btn-primary ").click()
+
+class Books ():
+    def __init__(self, driver):
+        self.driver = driver
+
+    def search(self):
+        return self.driver.find_element(By.ID, "searchbox")
