@@ -23,7 +23,7 @@ class Books ():
         self.driver = driver
 
     def search(self, set_book):
-         return self.driver.find_elements(By.XPATH, '//*[@id="searchBox"]').send_keys(data.searchBook)
+         return self.driver.find_element(By.XPATH, '/html/body/div[2]/div/div/div/div[2]/div[2]/div[1]/div[1]/div/input').send_keys(data.searchBook)
 
 
 

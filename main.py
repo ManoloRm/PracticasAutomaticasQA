@@ -31,5 +31,5 @@ class Test_demo_qa():
     def test_search_books(self):
         self.driver.get(data.URLBank_books)
         test_searchBook = data.searchBook
+        time.sleep(2)
         pages.Books.search(self, test_searchBook)
-        assert  test_searchBook == data.searchBook
