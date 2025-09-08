@@ -3,6 +3,7 @@ import selenium
 import time
 import selenium.common.exceptions
 from selenium.webdriver.common.by import By
+import data
 
 class loginpage():
     def __init__(self, driver):
@@ -21,5 +22,8 @@ class Books ():
     def __init__(self, driver):
         self.driver = driver
 
-    def search(self):
-        return self.driver.find_element(By.ID, "searchbox")
+    def search(self, set_book):
+         return self.driver.find_elements(By.XPATH, '//*[@id="searchBox"]').send_keys(data.searchBook)
+
+
+
