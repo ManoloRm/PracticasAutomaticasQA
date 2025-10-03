@@ -1,4 +1,4 @@
-Proyuecto independiente para llevar a cabo pruebas automaticas haciendo uso de una página web.
+Proyecto independiente para llevar a cabo pruebas automaticas haciendo uso de una página web.
 
 Herrramientas : 
   Pycharm.
