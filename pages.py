@@ -18,12 +18,17 @@ class loginpage():
     def logiong_button(self):
         return self.driver.find_element(By.CLASS_NAME, "#login.btn-primary ").click()
 
-class Books ():
+class Books():
     def __init__(self, driver):
         self.driver = driver
 
     def search(self, set_book):
          return self.driver.find_element(By.XPATH, '/html/body/div[2]/div/div/div/div[2]/div[2]/div[1]/div[1]/div/input').send_keys(data.searchBook)
 
+class scroll():
+    def __init__(self, driver):
+        self.driver = driver
+    def scroll_botton(self):
+        return  self.driver.scroll_to_element(self.driver.find_element (By.CSS_SELECTOR, "#scroll-right"))
 
 
