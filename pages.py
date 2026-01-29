@@ -1,3 +1,5 @@
+from gc import enable
+
 from selenium import webdriver
 import selenium
 import time
@@ -28,8 +30,8 @@ class Books():
 class scroll():
     def __init__(self, driver):
         self.driver = driver
-    def scroll_To_Search_Box(self):
+
+    def scroll_To_Search_Box(self, scroll_to_item):
         return self.driver.find_element(By.XPATH, '//*[@id="login"]').is_displayed()
-    assert (scroll_To_Search_Box()).is_displayed()
 
 
