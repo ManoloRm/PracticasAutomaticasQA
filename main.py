@@ -38,7 +38,5 @@ class Test_demo_qa():
         time.sleep(2)
         pages.Books.search(self, test_searchBook)
 
-    def test_Scrollpage(self):
-        actions = ActionChains(self.driver)
-        actions.scroll_to_element(pages.scroll(self))
-        assert ()
+    def test_Scroll_To_Item(self):
+        pages.scroll(self)

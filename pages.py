@@ -28,7 +28,8 @@ class Books():
 class scroll():
     def __init__(self, driver):
         self.driver = driver
-    def scroll_botton(self):
-        return  self.driver.scroll_to_element(self.driver.find_element (By.CSS_SELECTOR, "#scroll-right"))
+    def scroll_To_Search_Box(self):
+        return self.driver.find_element(By.XPATH, '//*[@id="login"]').is_displayed()
+    assert (scroll_To_Search_Box()).is_displayed()
 
 
